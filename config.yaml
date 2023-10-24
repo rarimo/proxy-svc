@@ -1,0 +1,11 @@
+log:
+  disable_sentry: true
+  level: debug
+
+listener:
+  addr: :8000
+
+proxy:
+  api_key: ""
+  url: "https://us21.api.mailchimp.com"
+  list_id: ""
